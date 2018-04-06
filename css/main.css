@@ -65,7 +65,7 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 50px;
-    background-color: rgba(234, 217, 200, 0.5); }
+    padding: 15px;
+    background-color: #ead9c8; }
     footer ul li {
       padding: 10px; }
