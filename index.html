@@ -4,29 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css\main.css">
   <title>Arthur Perun</title>
 </head>
 <body ng-app="myApp">
+  <div class="wrapper">
   <div class="navigation">
     <div class="logo">Arthur Perun</div>
-  <nav>
     <ul>
       <li><a href="">Gallery</a></li>
       <li><a href="">About</a></li>
       <li><a href="">Services</a></li>
       <li><a href="">Contacts</a></li>
     </ul>
-  </nav>
   </div>
-  <div ng-view></div>
+  <div class="content">
+    <div ng-view></div>
+  </div>
   <footer>
     <ul>
-    <li>Facebook</li>
-    <li>Instagram</li>
-    <li>Twitter</li>
-    <li>LinkindIn</li>
-  </ul>
+      <li>Facebook</li>
+      <li>Instagram</li>
+      <li>Twitter</li>
+      <li>LinkindIn</li>
+    </ul>
   </footer>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
 </body>
