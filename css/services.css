@@ -1,0 +1,29 @@
+h2 {
+  text-align: center;
+  padding: 40px 10px 10px;
+  color: black; }
+
+.service-list {
+  background-image: url("/images/servicesbg.jpg");
+  background-size: cover;
+  height: 562px; }
+
+.lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+  .lists ul {
+    margin: 40px 10px;
+    padding: 20px;
+    width: 40%;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10%; }
+    .lists ul li {
+      text-align: center;
+      line-height: 40px;
+      border-bottom: 1px solid #254d00; }
+      .lists ul li img {
+        padding-right: 5px; }

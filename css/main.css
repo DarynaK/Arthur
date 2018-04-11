@@ -16,7 +16,8 @@ body {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  background-color: rgba(102, 102, 51, 0.2); }
   .navigation ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -28,11 +29,11 @@ body {
     margin: 15px; }
     .navigation ul li a {
       text-decoration: none;
-      color: #4b341b;
-      padding: 10px; }
+      color: black;
+      padding: 5px;
+      text-transform: uppercase; }
       .navigation ul li a:hover {
-        background-color: rgba(234, 217, 200, 0.5);
-        border-radius: 25px; }
+        border-top: 1px solid rgba(102, 102, 51, 0.5); }
 
 .logo {
   padding: 10px;
@@ -66,6 +67,6 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
     padding: 5px;
-    background-color: #ead9c8; }
+    background-color: rgba(102, 102, 51, 0.3); }
     footer ul li {
       padding: 5px; }

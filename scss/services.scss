@@ -1,0 +1,31 @@
+h2 {
+  text-align: center;
+  padding: 40px 10px 10px;
+  color: rgb(0, 0, 0);
+}
+
+.service-list {
+  background-image: url('/images/servicesbg.jpg');
+  background-size: cover;
+  height: 562px;
+}
+.lists {
+  display: flex;
+  justify-content: space-around;
+  ul {
+    margin: 40px 10px;
+    padding: 20px;
+    width: 40%;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, .8);
+    border-radius: 10%;
+    li {
+      text-align: center;
+      line-height: 40px;
+      border-bottom: 1px solid rgb(37, 77, 0);
+      img {
+        padding-right: 5px;
+      }
+    }
+  }
+}

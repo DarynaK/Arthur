@@ -1,0 +1,17 @@
+.content {
+  background-image: url('/images/perun.JPG');
+  background-size: cover;
+  height: 562px;
+  p {
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    position: relative;
+    top: 150px;
+    right: 15px;
+  }
+}
