@@ -1,0 +1,36 @@
+.contacts_content {
+  background-image: url("../images/contactsbg.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 562px; }
+
+h2 {
+  text-align: center;
+  padding: 25px; }
+
+#form {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  margin: 0 auto;
+  width: 60%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  #form input, #form textarea {
+    border: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    outline: none; }
+  #form button {
+    padding: 15px;
+    color: white;
+    background-color: #003300;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px; }
