@@ -8,7 +8,8 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   margin: 0 auto;
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif; }
 
 .navigation {
   display: -webkit-box;
@@ -29,7 +30,7 @@ body {
     margin: 15px; }
     .navigation ul li a {
       text-decoration: none;
-      color: black;
+      color: white;
       padding: 5px;
       text-transform: uppercase; }
       .navigation ul li a:hover {
@@ -37,7 +38,8 @@ body {
 
 .logo {
   padding: 10px;
-  margin: 5px; }
+  margin: 5px;
+  color: white; }
 
 .wrapper {
   display: -webkit-box;
@@ -66,7 +68,18 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 5px;
+    padding: 6px;
     background-color: #0d0f0a; }
     footer ul li {
-      padding: 5px; }
+      padding-right: 10px; }
+
+.facebook, .twitter, .linkedin {
+  cursor: pointer; }
+  .facebook:hover, .twitter:hover, .linkedin:hover {
+    background-color: #000099; }
+
+.instagram {
+  cursor: pointer; }
+  .instagram:hover {
+    background-color: #800040;
+    border-radius: 8px; }

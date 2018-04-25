@@ -5,9 +5,10 @@
   height: 562px;
 }
 
-h2 {
-  text-align: center;
-  padding: 25px;
+p {
+  text-align: left;
+  padding: 20px 280px;
+  font-size: 35px;
 }
 
 #form {
@@ -21,16 +22,19 @@ h2 {
   input, textarea {
     border: none;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 10px;
     outline: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
   }
 
   button {
-    padding: 15px;
+    padding: 10px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 51, 0);
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
     border: none;
     border-radius: 10px;
     outline: none;
