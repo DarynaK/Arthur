@@ -76,10 +76,11 @@ footer {
 .facebook, .twitter, .linkedin {
   cursor: pointer; }
   .facebook:hover, .twitter:hover, .linkedin:hover {
-    background-color: #000099; }
+    background-color: #000099;
+    border-radius: 4px; }
 
 .instagram {
   cursor: pointer; }
   .instagram:hover {
     background-color: #800040;
-    border-radius: 8px; }
+    border-radius: 6px; }
