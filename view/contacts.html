@@ -11,9 +11,15 @@
 <body>
   <div class="contacts_content">
 <p class="contact_title">Contact me</p>
-<form id="form" action="https://formspree.io/dara.klymenko@gmail.com" method="POST">
-  <input type="text" name="name" id="name" placeholder="Your name"/>
-  <input type="email" name="email" id="email" placeholder="Your email"/>
+<form id="form" class="form" name="contactForm" action="https://formspree.io/dara.klymenko@gmail.com" method="POST">
+  <input type="text" name="name" id="name" placeholder="Your name" ng-model="contact.name" ng-required="true" />
+    <div ng-show="contactForm.name.$touched && contactForm.name.$invalid">
+      <span class="validWarning">Enter your name, please</span>
+    </div>
+  <input type="email" name="email" id="email" placeholder="Your email" ng-model="contact.email" ng-required="true"/>
+  <div ng-show="contactForm.email.$touched && contactForm.email.$invalid">
+    <span class="validWarning">Enter valid email, please</span>
+  </div>
   <textarea name="message" id="textarea" placeholder="Your message" cols="30" rows="10"></textarea>
   <button type="button" id="send">Send</button>
 </form>

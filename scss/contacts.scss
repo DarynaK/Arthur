@@ -21,11 +21,26 @@
   flex-direction: column;
   input, textarea {
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-top: 7px;
     padding: 10px;
     outline: none;
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
+  }
+
+  .validWarning {
+      font-size: 15px;
+      font-weight: bolder;
+      text-decoration: underline;
+      color: rgb(153, 0, 0);
+      background-color: rgba(255, 255, 255, .5);
+      border-radius: 7px;
+      padding: 0 5px;
+  }
+
+  .ng-invalid.ng-touched {
+      border: 2px solid #b94646;
   }
 
   button {
