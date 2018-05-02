@@ -3,11 +3,18 @@ p {
   text-align: left;
   padding: 40px 70px 10px;
   color: black; }
+  @media (max-width: 831px) {
+    p {
+      text-align: center; } }
 
 .service-list {
   background-image: url("/images/servicesbg.jpg");
   background-size: cover;
   height: 562px; }
+  @media (max-width: 831px) {
+    .service-list {
+      background-position: center;
+      height: auto; } }
 
 .lists {
   display: -webkit-box;
@@ -22,9 +29,19 @@ p {
     list-style-type: none;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10%; }
+    @media (max-width: 831px) {
+      .lists ul {
+        width: 80%;
+        margin: 10px auto; } }
     .lists ul li {
       text-align: center;
       line-height: 40px;
       border-bottom: 1px solid #254d00; }
       .lists ul li img {
         padding-right: 5px; }
+  @media (max-width: 831px) {
+    .lists {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }

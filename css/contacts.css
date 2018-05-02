@@ -8,6 +8,14 @@
   text-align: left;
   padding: 20px 280px;
   font-size: 35px; }
+  @media (max-width: 831px) {
+    .contact_title {
+      text-align: center;
+      padding: 15px 100px; } }
+  @media (max-width: 663px) {
+    .contact_title {
+      text-align: center;
+      padding: 15px 100px; } }
 
 #form {
   background-color: rgba(0, 0, 0, 0.2);

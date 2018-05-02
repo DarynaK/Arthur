@@ -1,14 +1,24 @@
+@import"variables";
+@import "mixins";
+
 p {
   font-size: 35px;
   text-align: left;
   padding: 40px 70px 10px;
   color: rgb(0, 0, 0);
+  @include md {
+    text-align: center;
+  }
 }
 
 .service-list {
   background-image: url('/images/servicesbg.jpg');
   background-size: cover;
   height: 562px;
+  @include md {
+    background-position: center;
+    height: auto;
+  }
 }
 .lists {
   display: flex;
@@ -20,6 +30,10 @@ p {
     list-style-type: none;
     background-color: rgba(255, 255, 255, .8);
     border-radius: 10%;
+    @include md {
+      width: 80%;
+      margin: 10px auto;
+    }
     li {
       text-align: center;
       line-height: 40px;
@@ -28,5 +42,8 @@ p {
         padding-right: 5px;
       }
     }
+  }
+  @include md {
+    flex-direction: column;
   }
 }

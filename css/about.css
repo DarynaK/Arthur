@@ -1,15 +1,38 @@
 .content {
   background-image: url("../images/perun.JPG");
+  background-position: left;
   background-size: cover;
   height: 562px; }
-  .content p {
-    padding: 10px;
-    font-size: 25px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 10%;
-    display: inline-block;
-    text-align: center;
-    float: right;
-    position: relative;
-    top: 150px;
-    right: 15px; }
+  .content .about {
+    padding: 35px 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
+    @media (max-width: 831px) {
+      .content .about {
+        padding-top: 55px; } }
+    @media (max-width: 663px) {
+      .content .about {
+        display: block;
+        position: absolute;
+        bottom: 5px;
+        width: 100%; } }
+    .content .about p {
+      padding: 10px;
+      font-size: 20px;
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 10%;
+      text-align: center;
+      width: 40%; }
+      @media (max-width: 831px) {
+        .content .about p {
+          font-size: 17px; } }
+      @media (max-width: 663px) {
+        .content .about p {
+          margin: 0 auto;
+          padding: 2px;
+          width: 80%;
+          font-size: 15px; } }

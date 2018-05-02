@@ -1,3 +1,6 @@
+@import"variables";
+@import "mixins";
+
 .contacts_content {
   background-image: url('../images/servicesbg.JPG');
   background-size: cover;
@@ -9,6 +12,14 @@
   text-align: left;
   padding: 20px 280px;
   font-size: 35px;
+  @include md {
+    text-align: center;
+    padding: 15px 100px;
+  }
+  @include sm {
+    text-align: center;
+    padding: 15px 100px;
+  }
 }
 
 #form {

@@ -14,3 +14,15 @@
       cursor: pointer; }
       .row .column img:hover {
         opacity: 0.7; }
+    @media (max-width: 831px) {
+      .row .column {
+        -webkit-box-flex: 50%;
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%; } }
+    @media (max-width: 663px) {
+      .row .column {
+        -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%; } }
