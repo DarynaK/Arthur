@@ -6,18 +6,22 @@
   background-position: left;
   background-size: cover;
   height: 562px;
+    @include sm {
+    width: 100%;
+    background-image: url('../images/servicesbg.jpg');
+    background-position: center;
+  }
   .about {
-    padding: 35px 15px;
+    padding: 100px 15px;
     display: flex;
     justify-content: flex-end;
     @include md {
-      padding-top: 55px;
+      padding-top: 75px;
     }
       @include sm {
-      display: block;
-      position: absolute;
-      bottom: 5px;
       width: 100%;
+      padding-top: 85px;
+      background-size: cover;
     }
 
   p {
@@ -32,9 +36,9 @@
     }
     @include sm {
       margin: 0 auto;
-      padding: 2px;
+      padding: 10px;
       width: 80%;
-      font-size: 15px;
+      font-size: 23px;
     }
   }
 }

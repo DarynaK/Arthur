@@ -3,8 +3,13 @@
   background-position: left;
   background-size: cover;
   height: 562px; }
+  @media (max-width: 576px) {
+    .content {
+      width: 100%;
+      background-image: url("../images/servicesbg.jpg");
+      background-position: center; } }
   .content .about {
-    padding: 35px 15px;
+    padding: 100px 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,13 +18,12 @@
     justify-content: flex-end; }
     @media (max-width: 831px) {
       .content .about {
-        padding-top: 55px; } }
-    @media (max-width: 663px) {
+        padding-top: 75px; } }
+    @media (max-width: 576px) {
       .content .about {
-        display: block;
-        position: absolute;
-        bottom: 5px;
-        width: 100%; } }
+        width: 100%;
+        padding-top: 85px;
+        background-size: cover; } }
     .content .about p {
       padding: 10px;
       font-size: 20px;
@@ -30,9 +34,9 @@
       @media (max-width: 831px) {
         .content .about p {
           font-size: 17px; } }
-      @media (max-width: 663px) {
+      @media (max-width: 576px) {
         .content .about p {
           margin: 0 auto;
-          padding: 2px;
+          padding: 10px;
           width: 80%;
-          font-size: 15px; } }
+          font-size: 23px; } }
