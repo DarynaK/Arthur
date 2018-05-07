@@ -1,3 +1,6 @@
+@import"variables";
+@import "mixins";
+
 * {
   padding: 0;
   margin: 0;
@@ -21,6 +24,10 @@ body {
     justify-content: space-between;
     list-style-type: none;
     margin: 15px;
+    @include sm {
+      flex-direction: column;
+      align-items: center;
+    }
     li a {
       text-decoration: none;
       color: rgb(255, 255, 255);
@@ -37,6 +44,31 @@ body {
   padding: 10px;
   margin: 5px;
   color: rgb(255, 255, 255);
+}
+
+.burger {
+  color: white;
+  margin: 15px;
+  display: none;
+  @include sm {
+  display: block;
+  }
+}
+@include sm {
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    li {
+      padding-top: 80px;
+    }
+}
 }
 
 .wrapper {
