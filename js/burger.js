@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $('.burger').click(function() {
-    $('.overlay').fadeToggle();
-  });
-  $('li').click(function(){
-    $('.overlay').fadeOut();
-  });
+    $('.burger-menu').toggleClass('active');
+    });
+    $('.burger-menu li').click(function() {
+      $('.burger-menu').removeClass('active');
+      });
 });

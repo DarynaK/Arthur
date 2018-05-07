@@ -48,7 +48,8 @@ body {
 .logo {
   padding: 10px;
   margin: 5px;
-  color: white; }
+  color: white;
+  z-index: 2; }
 
 .burger {
   color: white;
@@ -56,10 +57,11 @@ body {
   display: none; }
   @media (max-width: 576px) {
     .burger {
-      display: block; } }
+      display: block;
+      z-index: 2; } }
 
 @media (max-width: 576px) {
-  .overlay {
+  .burger-menu {
     height: 100%;
     width: 100%;
     display: none;
@@ -69,8 +71,11 @@ body {
     left: 0;
     background-color: black;
     background-color: rgba(0, 0, 0, 0.9); }
-    .overlay li {
-      padding-top: 80px; } }
+    .burger-menu li {
+      padding-top: 80px;
+      font-size: 25px; }
+  .active.burger-menu {
+    display: block; } }
 
 .wrapper {
   display: -webkit-box;
