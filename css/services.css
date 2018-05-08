@@ -7,9 +7,12 @@ p {
     p {
       text-align: center; } }
 
-.service-list {
+.background {
   background-image: url("../images/servicesbg.JPG");
   background-size: cover;
+  background-position: center; }
+
+.service-list {
   height: 562px; }
   @media (max-width: 831px) {
     .service-list {

@@ -1,13 +1,16 @@
 @import"variables";
 @import "mixins";
 
-.contacts_content {
+.background {
   background-image: url('../images/servicesbg.JPG');
   background-size: cover;
   background-position: center;
-  height: 562px;
-}
 
+}
+.content {
+  height: 562px;
+
+}
 .contact_title {
   text-align: left;
   padding: 20px 280px;

@@ -18,7 +18,7 @@ body {
 .navigation {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(13, 15, 10, .9);
+  background-color: rgba(13, 15, 10, .1);
   ul {
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ body {
       padding: 5px;
       text-transform: uppercase;
       &:hover {
-        border-top: 1px solid rgba(102, 102, 51, .5);
+        border-top: 1px solid rgba(255, 255, 255, .5);
       }
     }
   }
@@ -53,7 +53,7 @@ body {
   .bar1, .bar2, .bar3 {
     width: 35px;
     height: 3px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     margin: 6px 0;
     transition: 0.4s;
 }

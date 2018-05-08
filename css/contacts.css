@@ -1,7 +1,9 @@
-.contacts_content {
+.background {
   background-image: url("../images/servicesbg.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: center; }
+
+.content {
   height: 562px; }
 
 .contact_title {
@@ -12,7 +14,7 @@
     .contact_title {
       text-align: center;
       padding: 15px 100px; } }
-  @media (max-width: 663px) {
+  @media (max-width: 576px) {
     .contact_title {
       text-align: center;
       padding: 15px 100px; } }

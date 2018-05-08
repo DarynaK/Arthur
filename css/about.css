@@ -1,13 +1,14 @@
-.content {
+.background {
   background-image: url("../images/perun.JPG");
   background-position: left;
-  background-size: cover;
-  height: 562px; }
+  background-size: cover; }
   @media (max-width: 576px) {
-    .content {
-      width: 100%;
-      background-image: url("../images/servicesbg.JPG");
+    .background {
+      background-image: url("../images/perun-sm.JPG");
       background-position: center; } }
+
+.content {
+  height: 562px; }
   .content .about {
     padding: 100px 15px;
     display: -webkit-box;
@@ -21,9 +22,7 @@
         padding-top: 75px; } }
     @media (max-width: 576px) {
       .content .about {
-        width: 100%;
-        padding-top: 85px;
-        background-size: cover; } }
+        padding-top: 340px; } }
     .content .about p {
       padding: 10px;
       font-size: 20px;
@@ -38,5 +37,5 @@
         .content .about p {
           margin: 0 auto;
           padding: 10px;
-          width: 80%;
-          font-size: 23px; } }
+          width: 100%;
+          font-size: 20px; } }
