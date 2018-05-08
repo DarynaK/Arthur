@@ -52,13 +52,33 @@ body {
   z-index: 2; }
 
 .burger {
-  color: white;
   margin: 15px;
   display: none; }
+  .burger .bar1, .burger .bar2, .burger .bar3 {
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s; }
   @media (max-width: 576px) {
     .burger {
       display: block;
       z-index: 2; } }
+
+.on .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-8px, 5px);
+  -ms-transform: rotate(-45deg) translate(-8px, 5px);
+  transform: rotate(-45deg) translate(-8px, 5px); }
+
+.on .bar2 {
+  opacity: 0; }
+
+.on .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -5px);
+  -ms-transform: rotate(45deg) translate(-8px, -5px);
+  transform: rotate(45deg) translate(-8px, -5px); }
 
 @media (max-width: 576px) {
   .burger-menu {
