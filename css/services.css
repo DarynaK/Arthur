@@ -5,6 +5,8 @@ p {
   color: black; }
   @media (max-width: 831px) {
     p {
+      font-size: 25px;
+      font-weight: bold;
       text-align: center; } }
 
 .background {

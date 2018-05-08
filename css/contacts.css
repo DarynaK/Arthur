@@ -16,6 +16,8 @@
       padding: 15px 100px; } }
   @media (max-width: 576px) {
     .contact_title {
+      font-size: 25px;
+      font-weight: bold;
       text-align: center;
       padding: 15px 100px; } }
 
