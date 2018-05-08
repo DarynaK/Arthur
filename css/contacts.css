@@ -23,7 +23,7 @@
   background-color: rgba(0, 0, 0, 0.2);
   padding: 25px;
   margin: 0 auto;
-  width: 60%;
+  max-width: 60%;
   border-radius: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,6 +32,9 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
+  @media (max-width: 831px) {
+    #form {
+      max-width: 90%; } }
   #form input, #form textarea {
     border: none;
     margin-bottom: 5px;

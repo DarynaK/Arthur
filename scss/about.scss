@@ -6,6 +6,9 @@
   background-image: url('../images/perun.JPG');
   background-position: left;
   background-size: cover;
+  @include md {
+    background-image: url('../images/perun-md.JPG');
+  }
     @include sm {
     background-image: url('../images/perun-sm.JPG');
     background-position: center;
@@ -22,6 +25,7 @@
     }
     @include sm {
       padding-top: 340px;
+      padding-bottom: 0;
     }
 
   p {

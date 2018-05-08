@@ -2,6 +2,9 @@
   background-image: url("../images/perun.JPG");
   background-position: left;
   background-size: cover; }
+  @media (max-width: 831px) {
+    .background {
+      background-image: url("../images/perun-md.JPG"); } }
   @media (max-width: 576px) {
     .background {
       background-image: url("../images/perun-sm.JPG");
@@ -22,7 +25,8 @@
         padding-top: 75px; } }
     @media (max-width: 576px) {
       .content .about {
-        padding-top: 340px; } }
+        padding-top: 340px;
+        padding-bottom: 0; } }
     .content .about p {
       padding: 10px;
       font-size: 20px;
