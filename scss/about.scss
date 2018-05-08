@@ -11,7 +11,7 @@
   }
     @include sm {
     background-image: url('../images/perun-sm.JPG');
-    background-position: bottom left;
+    background-position: center;
   }
 }
 .content {
@@ -42,7 +42,7 @@
       margin: 0 auto;
       padding: 10px;
       width: 100%;
-      font-size: 18px;
+      font-size: 15px;
     }
   }
 }
