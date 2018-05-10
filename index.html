@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="css\main.css">
-  <title>Arthur Perun</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css\main.css">
+    <title>Arthur Perun</title>
 </head>
+
 <body ng-app="myApp">
-  <div class="background">
-  <div class="wrapper">
-  <div class="navigation">
-    <div class="logo">ARTHUR PERUN</div>
-      <div class="burger">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+    <div class="background">
+        <div class="wrapper">
+            <div class="navigation">
+                <div class="logo">ARTHUR PERUN</div>
+                <div class="burger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div class="burger-menu">
+                    <ul>
+                        <li><a href="#/!">Gallery</a></li>
+                        <li><a href="#!about">About</a></li>
+                        <li><a href="#!services">Services</a></li>
+                        <li><a href="#!contacts">Contacts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div ng-view></div>
+        </div>
+        <footer>
+            <ul>
+                <li><img src="images/facebook.png" alt="facebook" class="facebook"></li>
+                <li><img src="images/instagram.png" alt="instagram" class="instagram"></li>
+                <li><img src="images/twitter.png" alt="twitter" class="twitter"></li>
+                <li><img src="images/linkedin.png" alt="linkedin" class="linkedin"></li>
+            </ul>
+        </footer>
     </div>
-  <div class="burger-menu">
-    <ul>
-      <li><a href="#/!">Gallery</a></li>
-      <li><a href="#!about">About</a></li>
-      <li><a href="#!services">Services</a></li>
-      <li><a href="#!contacts">Contacts</a></li>
-    </ul>
-  </div>
-  </div>
-</div>
-<div class="content">
-    <div ng-view></div>
-  </div>
-  <footer>
-    <ul>
-      <li><img src="images/facebook.png" alt="facebook" class="facebook"></li>
-      <li><img src="images/instagram.png" alt="instagram" class="instagram"></li>
-      <li><img src="images/twitter.png" alt="twitter" class="twitter"></li>
-      <li><img src="images/linkedin.png" alt="linkedin" class="linkedin"></li>
-    </ul>
-  </footer>
-</div>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-  <script src="js/route.js"></script>
-  <script src="js/burger.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <script src="js/route.js"></script>
+    <script src="js/burger.js"></script>
 </body>
+
 </html>
