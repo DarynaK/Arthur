@@ -1,11 +1,14 @@
 @import"variables";
 @import "mixins";
 
+body {
+    background-color: #0d0f0a;
+}
+
 .background {
   background-image: url('../images/servicesbg.JPG');
   background-size: cover;
   background-position: center;
-
 }
 .content {
   height: 562px;
