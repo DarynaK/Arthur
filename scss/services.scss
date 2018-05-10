@@ -1,6 +1,10 @@
 @import"variables";
 @import "mixins";
 
+body {
+    background-color: #0d0f0a;
+}
+
 p {
   font-size: 35px;
   text-align: left;
