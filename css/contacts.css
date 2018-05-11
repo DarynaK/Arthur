@@ -10,6 +10,11 @@ body {
     height: 100%;
 }
 
+@media (max-width: 576px) {
+    .background {
+	    height: auto;
+    }
+}
 
 .contact_title {
     text-align: left;
