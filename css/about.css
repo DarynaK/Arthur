@@ -21,7 +21,7 @@ body {
     .background {
         background-image: url("../images/perun-sm.JPG");
         background-position: center;
-        height: 100%;
+        height: auto;
     }
 }
 
