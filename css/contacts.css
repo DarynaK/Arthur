@@ -1,47 +1,61 @@
+html,
 body {
-    background-color: #0d0f0a;}
+    height: 100%;
+}
 
 .background {
-  background-image: url("../images/servicesbg.JPG");
-  background-size: cover;
-  background-position: center;}
+    background-image: url("../images/servicesbg.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
 
-
-.content {
-    height: 562px;}
 
 .contact_title {
-  text-align: left;
-  padding: 20px 280px;
-  font-size: 35px; }
-  @media (max-width: 831px) {
+    text-align: left;
+    padding: 20px 280px;
+    font-size: 35px;
+}
+
+@media (max-width: 831px) {
     .contact_title {
-      text-align: center;
-      padding: 15px 100px; } }
-  @media (max-width: 576px) {
+        text-align: center;
+        padding: 15px 100px;
+    }
+}
+
+@media (max-width: 576px) {
     .contact_title {
-      font-size: 25px;
-      font-weight: bold;
-      text-align: center;
-      padding: 15px 100px; } }
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 100px;
+    }
+}
 
 #form {
-  background-color: rgba(0, 0, 0, 0.2);
-  padding: 25px;
-  margin: 0 auto;
-  max-width: 60%;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  @media (max-width: 831px) {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 60%;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+@media (max-width: 831px) {
     #form {
-      max-width: 90%; } }
-  #form input, #form textarea {
+        max-width: 90%;
+    }
+}
+
+#form input,
+#form textarea {
     margin-bottom: 5px;
     margin-top: 7px;
     padding: 10px;
@@ -52,18 +66,24 @@ body {
     border-bottom: 1px solid #e6e6e6;
     border-left: 1px solid #b3b3b3;
     border-top: 1px solid #b3b3b3;
-    border-radius: 5px;}
-  #form .validWarning {
+    border-radius: 5px;
+}
+
+#form .validWarning {
     font-size: 15px;
     font-weight: bolder;
     text-decoration: underline;
     color: #990000;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 7px;
-    padding: 0 5px; }
-  #form .ng-invalid.ng-touched {
-    border: 2px solid #b94646; }
-  #form #button {
+    padding: 0 5px;
+}
+
+#form .ng-invalid.ng-touched {
+    border: 2px solid #b94646;
+}
+
+#form #button {
     padding: 10px;
     color: white;
     background-color: #003300;
@@ -74,11 +94,11 @@ body {
     border-radius: 10px;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 4px rgb(0, 26, 0);}
-  #form #button:active{
+    box-shadow: 0 4px rgb(0, 26, 0);
+}
+
+#form #button:active {
     background-color: rgb(0, 102, 0);
     box-shadow: 0 1px rgb(0, 26, 0);
-    transform: translateY(3px);}
-
-
-
+    transform: translateY(3px);
+}

@@ -1,91 +1,94 @@
 @import"variables";
 @import "mixins";
 
+html,
 body {
-    background-color: #0d0f0a;
+    height: 100%;
 }
 
 .background {
-  background-image: url('../images/servicesbg.JPG');
-  background-size: cover;
-  background-position: center;
+    background-image: url('../images/servicesbg.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    @import md {
+        height: auto;
+    }
 }
-.content {
-  height: 562px;
-}
+
 .contact_title {
-  text-align: left;
-  padding: 20px 280px;
-  font-size: 35px;
-  @include md {
-    text-align: center;
-    padding: 15px 100px;
-  }
-  @include sm {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    padding: 15px 100px;
-  }
+    text-align: left;
+    padding: 20px 280px;
+    font-size: 35px;
+    @include md {
+        text-align: center;
+        padding: 15px 100px;
+    }
+    @include sm {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        padding: 15px 100px;
+    }
 }
 
 #form {
-  background-color: rgba(0, 0, 0, .2);
-  padding: 25px;
-  margin: 0 auto;
-  max-width: 60%;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  @include md {
-    max-width: 90%;
-  }
-
-  input, textarea {
-    margin-bottom: 5px;
-    margin-top: 7px;
-    padding: 10px;
-    outline: none;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 15px;
-    border-right: 1px solid #e6e6e6;
-    border-bottom: 1px solid #e6e6e6;
-    border-left: 1px solid #b3b3b3;
-    border-top: 1px solid #b3b3b3;
-    border-radius: 5px;
-  }
-
-  .validWarning {
-      font-size: 15px;
-      font-weight: bolder;
-      text-decoration: underline;
-      color: rgb(153, 0, 0);
-      background-color: rgba(255, 255, 255, .5);
-      border-radius: 7px;
-      padding: 0 5px;
-  }
-
-  .ng-invalid.ng-touched {
-      border: 2px solid #b94646;
-  }
-
-  #button {
-    padding: 10px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 51, 0);
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
-    border: none;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 60%;
     border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    box-shadow: 0 4px rgb(0, 26, 0);
-      &:active {
-          background-color: rgb(0, 102, 0);
-          box-shadow: 0 1px rgb(0, 26, 0);
-          transform: translateY(3px);
-      }
-  }
-}
+    display: flex;
+    flex-direction: column;
+    @include md {
+        max-width: 90%;
+    }
 
+    input,
+    textarea {
+        margin-bottom: 5px;
+        margin-top: 7px;
+        padding: 10px;
+        outline: none;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 15px;
+        border-right: 1px solid #e6e6e6;
+        border-bottom: 1px solid #e6e6e6;
+        border-left: 1px solid #b3b3b3;
+        border-top: 1px solid #b3b3b3;
+        border-radius: 5px;
+    }
+
+    .validWarning {
+        font-size: 15px;
+        font-weight: bolder;
+        text-decoration: underline;
+        color: rgb(153, 0, 0);
+        background-color: rgba(255, 255, 255, .5);
+        border-radius: 7px;
+        padding: 0 5px;
+    }
+
+    .ng-invalid.ng-touched {
+        border: 2px solid #b94646;
+    }
+
+    #button {
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 51, 0);
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+        box-shadow: 0 4px rgb(0, 26, 0);
+        &:active {
+            background-color: rgb(0, 102, 0);
+            box-shadow: 0 1px rgb(0, 26, 0);
+            transform: translateY(3px);
+        }
+    }
+}
