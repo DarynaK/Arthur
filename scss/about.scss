@@ -13,7 +13,7 @@ body {
     height: 100%;
     @include md {
         background-image: url('../images/perun-md.JPG');
-        height: 100%;
+        height: auto;
     }
     @include sm {
         background-image: url('../images/perun-sm.JPG');
