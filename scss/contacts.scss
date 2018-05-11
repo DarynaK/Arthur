@@ -11,6 +11,9 @@ body {
     background-size: cover;
     background-position: center;
     height: 100%;
+    @import md {
+        height: auto;
+    }
     @import sm {
         height: auto;
     }
