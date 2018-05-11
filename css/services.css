@@ -1,54 +1,80 @@
+html,
 body {
-    background-color: #0d0f0a;}
+    height: 100%;
+}
+
 p {
-  font-size: 35px;
-  text-align: left;
-  padding: 40px 70px 10px;
-  color: black; }
-  @media (max-width: 831px) {
+    font-size: 35px;
+    text-align: left;
+    padding: 40px 70px 10px;
+    color: black;
+}
+
+@media (max-width: 831px) {
     p {
-      font-size: 25px;
-      font-weight: bold;
-      text-align: center; } }
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
 
 .background {
-  background-image: url("../images/servicesbg.JPG");
-  background-size: cover;
-  background-position: center; }
+    background-image: url("../images/servicesbg.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
 
-.service-list {
-  height: 562px; }
-  @media (max-width: 831px) {
+@media (max-width: 831px) {
+    .background {
+        height: auto;
+    }
     .service-list {
-      background-position: center;
-      height: auto; } }
+        background-position: center;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
 
 .lists {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around; }
-  .lists ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.lists ul {
     margin: 40px 10px;
     padding: 20px;
     width: 40%;
     list-style-type: none;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 10%; }
-    @media (max-width: 831px) {
-      .lists ul {
+    border-radius: 10%;
+}
+
+@media (max-width: 831px) {
+    .lists ul {
         width: 80%;
-        margin: 10px auto; } }
-    .lists ul li {
-      text-align: center;
-      line-height: 40px;
-      border-bottom: 1px solid #254d00; }
-      .lists ul li img {
-        padding-right: 5px; }
-  @media (max-width: 831px) {
+        margin: 10px auto;
+    }
+}
+
+.lists ul li {
+    text-align: center;
+    line-height: 40px;
+    border-bottom: 1px solid #254d00;
+}
+
+.lists ul li img {
+    padding-right: 5px;
+}
+
+@media (max-width: 831px) {
     .lists {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
