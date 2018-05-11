@@ -10,6 +10,12 @@ body {
     height: 100%;
 }
 
+@media (max-width: 831px) {
+    .background {
+	    height: auto;
+    }
+}
+
 @media (max-width: 576px) {
     .background {
 	    height: auto;
