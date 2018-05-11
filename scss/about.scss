@@ -1,52 +1,57 @@
 @import"variables";
 @import "mixins";
 
+html,
 body {
-    background-color: #0d0f0a;
+    height: 100%;
 }
 
 .background {
-  background-image: url('../images/perun.JPG');
-  background-position: left;
-  background-size: cover;
-  @include md {
-    background-image: url('../images/perun-md.JPG');
-  }
-    @include sm {
-    background-image: url('../images/perun-sm.JPG');
-    background-position: center;
-  }
-}
-.content {
-  height: 562px;
-  .about {
-    padding: 100px 15px;
-    display: flex;
-    justify-content: flex-end;
+    background-image: url('../images/perun.JPG');
+    background-position: left;
+    background-size: cover;
+    height: 100%;
     @include md {
-      padding-top: 75px;
+        background-image: url('../images/perun-md.JPG');
+        height: 100%;
     }
     @include sm {
-      padding-top: 340px;
-      padding-bottom: 0;
+        background-image: url('../images/perun-sm.JPG');
+        background-position: center;
+        height: 100%;
     }
+}
 
-  p {
-    padding: 10px;
-    font-size: 20px;
-    background-color: rgba(255, 255, 255, .5);
-    border-radius: 10%;
-    text-align: center;
-    width: 40%;
-    @include md {
-      font-size: 17px;
+.content {
+    height: 562px;
+    .about {
+        padding: 100px 15px;
+        display: flex;
+        justify-content: flex-end;
+        @include md {
+            padding-top: 75px;
+        }
+        @include sm {
+            padding-top: 340px;
+            padding-bottom: 0;
+        }
+
+        p {
+            padding: 10px;
+            font-size: 20px;
+            background-color: rgba(255, 255, 255, .5);
+            border-radius: 10%;
+            text-align: center;
+            width: 40%;
+            @include md {
+                font-size: 17px;
+            }
+            @include sm {
+                margin: 0 auto;
+                padding: 1px;
+                width: 100%;
+                font-size: 15px;
+            }
+        }
     }
-    @include sm {
-      margin: 0 auto;
-      padding: 1px;
-      width: 100%;
-      font-size: 15px;
-    }
-  }
-}
 }
