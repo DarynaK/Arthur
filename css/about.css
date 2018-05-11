@@ -13,7 +13,7 @@ body {
 @media (max-width: 831px) {
     .background {
         background-image: url("../images/perun-md.JPG");
-        height: 100%;
+        height: auto;
     }
 }
 
